@@ -82,7 +82,7 @@ INSERT INTO Employment_Stats_Updated (REF_DATE, GEO, Stats, UOM, COORDINATE, VAL
 SELECT REF_DATE, GEO, Stats, UOM, COORDINATE, VALUE1
 FROM Employment_Stats;
 
--- Drop the original table
+-- Drop original table
 DROP TABLE Employment_Stats;
 
 -- Rename the new table to the original table name
